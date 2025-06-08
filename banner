@@ -7,11 +7,13 @@ _  /_/ // /_/ /  /   / /_/ /
 -----------------------------
       Doraemon Kernel
 -----------------------------
-Device: Poco F5 Pro / K60 (mondrian)
+Device: Poco F5 Pro / K60 (mondrian)  
 Linux: 5.10.y - GKI
 Android: 15
 Developer: @KernelPanix
 Retouch by: Keosh
 -----------------------------
-
+📱 Interactive Installation:
+   Vol(+) = WITH KernelSU (Root)
+   Vol(-) = WITHOUT KernelSU (Stock)
 -----------------------------
