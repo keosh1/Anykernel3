@@ -5,7 +5,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=DoraCore GKI 5.10 by dopaemon && keosh - KernelSU Next Selection
+kernel.string=Xenial Kernel 5.10 by Jairus980 && keosh - KernelSU Next Selection
 do.devicecheck=0
 do.modules=0
 do.systemless=1
@@ -54,7 +54,7 @@ if [ -f "Image-standard" ]; then
 fi;
 
 if [ "$KERNELSU_CHOICE" = "with" ]; then
-  ui_print " - Installing DoraCore with KernelSU support...";
+  ui_print " - Installing Xenial Kernel with KernelSU support...";
   ui_print "   + Root access enabled";
   ui_print "   + KernelSU integration active";
 
@@ -79,7 +79,7 @@ if [ "$KERNELSU_CHOICE" = "with" ]; then
     exit 2;
   fi;
 elif [ "$KERNELSU_CHOICE" = "without" ]; then
-  ui_print " - Installing DoraCore without KernelSU...";
+  ui_print " - Installing Xenial Kernel without KernelSU...";
   ui_print "   + Standard kernel installation";
   ui_print "   + No root access";
 
