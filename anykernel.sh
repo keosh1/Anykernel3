@@ -54,7 +54,7 @@ if [ -f "Image-standard" ]; then
 fi;
 
 if [ "$KERNELSU_CHOICE" = "with" ]; then
-  ui_print " - Installing Xenial Kernel with KernelSU support...";
+  ui_print " - Installing Xenial with KernelSU support...";
   ui_print "   + Root access enabled";
   ui_print "   + KernelSU integration active";
 
@@ -79,7 +79,7 @@ if [ "$KERNELSU_CHOICE" = "with" ]; then
     exit 2;
   fi;
 elif [ "$KERNELSU_CHOICE" = "without" ]; then
-  ui_print " - Installing Xenial Kernel without KernelSU...";
+  ui_print " - Installing Xenial without KernelSU...";
   ui_print "   + Standard kernel installation";
   ui_print "   + No root access";
 
